@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', 'Gowun Batang', Georgia, serif;
+    --font-sans: 'Montserrat', 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #262123;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-display);
+    word-break: keep-all;
+  }
+}
+
+@keyframes sparkleFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-8px) scale(1.15);
+    opacity: 1;
+  }
+}
+
+@keyframes gentlePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.animate-sparkle {
+  animation: sparkleFloat 3.5s ease-in-out infinite;
+}
+
+.animate-gentle-pulse {
+  animation: gentlePulse 2.8s ease-in-out infinite;
+}

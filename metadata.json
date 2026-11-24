@@ -1,0 +1,6 @@
+{
+  "name": "라 프린세스 (La Princesse) - 프리미엄 공주 드레스 부티크",
+  "description": "예쁜 것을 사랑하는 아이들을 위한 프리미엄 공주 드레스와 반짝이는 로열 악세사리 부티크. 색상·소재·무드 맞춤 스마트 추천과 나만의 공주 코디 피팅룸을 제공합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
